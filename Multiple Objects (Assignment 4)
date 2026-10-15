@@ -1,0 +1,25 @@
+class Car {
+    String brand;
+    int year;
+
+    Car(String brand, int year) {
+        this.brand = brand;
+        this.year = year;
+    }
+
+    void display() {
+        System.out.println("Brand: " + brand + ", Year: " + year);
+    }
+}
+
+public class Q12 {
+    public static void main(String[] args) {
+        Car car1 = new Car("Toyota", 2020);
+        Car car2 = new Car("Honda", 2022);
+        Car car3 = new Car("Hyundai", 2024);
+
+        car1.display();
+        car2.display();
+        car3.display();
+    }
+}
